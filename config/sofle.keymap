@@ -9,6 +9,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 #define BASE 0
@@ -66,10 +67,10 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans          &kp F1        &kp F2  &kp F3        &kp F4     &kp F5                             &kp F6           &kp F7           &kp F8     &kp F9         &kp F10           &kp F11
-&kp GRAVE       &kp KP_PLUS   &kp N7  &kp N8        &kp N9     &kp KP_MULTIPLY                    &kp PRINTSCREEN  &kp HOME         &kp END    &msc SCRL_UP   &msc SCRL_DOWN    &kp F12
+&mkp MB1        &kp F1        &kp F2  &kp F3        &kp F4     &kp F5                             &kp F6           &kp F7           &kp F8     &kp F9         &kp F10           &kp F11
+&mkp MB2        &kp KP_PLUS   &kp N7  &kp N8        &kp N9     &kp KP_MULTIPLY                    &kp PRINTSCREEN  &kp HOME         &kp END    &msc SCRL_UP   &msc SCRL_DOWN    &kp F12
 &kp LEFT_SHIFT  &kp KP_MINUS  &kp N4  &kp N5        &kp N6     &kp KP_DIVIDE                      &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp UNDER  &kp LESS_THAN  &kp GREATER_THAN  &kp PIPE
-&trans          &kp EQUAL     &kp N1  &kp N2        &kp N3     &kp DOT          &trans    &trans  &kp LBKT         &kp RBKT         &kp SEMI   &kp COLON      &kp BSLH          &trans
+&mkp MB3        &kp EQUAL     &kp N1  &kp N2        &kp N3     &kp DOT          &trans    &trans  &kp LBKT         &kp RBKT         &kp SEMI   &kp COLON      &kp BSLH          &trans
                               &trans  &kp LEFT_ALT  &kp LCTRL  &trans           &trans    &trans  &trans           &trans           &trans     &trans
             >;
 
