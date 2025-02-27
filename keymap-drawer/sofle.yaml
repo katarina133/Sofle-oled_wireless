@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''',
-    ESC, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
+    CAPS, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -16,35 +16,35 @@ layers:
   - F10
   - F11
   - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  - KP PLUS
   - '7'
   - '8'
   - '9'
-  - '0'
+  - KP MULTIPLY
+  - PRINTSCREEN
+  - HOME
+  - END
+  - '&msc SCRL_UP'
+  - '&msc SCRL_DOWN'
   - F12
   - LEFT SHIFT
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - KP MULTIPLY
-  - (
-  - )
+  - KP MINUS
+  - '4'
+  - '5'
+  - '6'
+  - KP DIVIDE
+  - '{'
+  - '}'
+  - _
+  - <
+  - '>'
   - '|'
   - {t: ▽, type: trans}
   - '='
-  - '-'
-  - KP PLUS
-  - '{'
-  - '}'
+  - '1'
+  - '2'
+  - '3'
+  - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
