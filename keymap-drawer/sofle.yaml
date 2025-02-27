@@ -3,7 +3,7 @@ layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''',
     CAPS, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
   lower:
-  - '&mkp MB1'
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -15,7 +15,7 @@ layers:
   - F9
   - F10
   - F11
-  - '&mkp MB2'
+  - {t: ▽, type: trans}
   - KP PLUS
   - '7'
   - '8'
@@ -24,8 +24,8 @@ layers:
   - PRINTSCREEN
   - HOME
   - END
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
+  - '`'
+  - {t: ▽, type: trans}
   - F12
   - LEFT SHIFT
   - KP MINUS
@@ -39,7 +39,7 @@ layers:
   - <
   - '>'
   - '|'
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
   - '='
   - '1'
   - '2'
